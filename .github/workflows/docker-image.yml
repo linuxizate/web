@@ -23,4 +23,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: javiermanzanares/web:latest, javiermanzanares/kubernetes:${{ github.sha }}
+          tags: javiermanzanares/web:latest, javiermanzanares/web:${{ github.sha }}
